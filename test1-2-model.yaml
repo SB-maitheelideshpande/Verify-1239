@@ -6,7 +6,7 @@ properties:
   id:
     type: string
     x-stoplight:
-      id: at05cf7exjsrv
+      id: s68rebevd2rto
   colour:
     type: array
     x-stoplight:
