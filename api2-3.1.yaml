@@ -43,6 +43,8 @@ paths:
         id: z1upli58s791x
     patch:
       summary: Update User Information
+      x-stoplight:
+        id: 9wd3rc9sghifa
       operationId: patch-users-userId
       responses:
         '200':
@@ -93,8 +95,6 @@ paths:
                   lastName: Baker
                   dateOfBirth: '1985-10-02'
         description: Patch user properties to update.
-      x-stoplight:
-        id: z1upli58s791x
   /user:
     post:
       summary: Create New User
@@ -153,6 +153,8 @@ paths:
         id: hba5hh1dtrll8
     get:
       summary: Your GET endpoint
+      x-stoplight:
+        id: 16ypxdcw3oicw
       tags: []
       responses:
         '200':
@@ -165,14 +167,12 @@ paths:
                   mmm:
                     type: string
                     x-stoplight:
-                      id: 36ie0gpksymys
+                      id: z2nj7adh9wak0
                   hhhhh:
                     type: string
                     x-stoplight:
                       id: 36ie0gpksymys
       operationId: get-user
-      x-stoplight:
-        id: 16ypxdcw3oicw
       requestBody:
         content:
           application/json:
@@ -180,7 +180,7 @@ paths:
               oneOf:
                 - $ref: '#/components/schemas/User'
                   x-stoplight:
-                    id: ooodri8rkz7cq
+                    id: kwuhcfqlqwhnj
                 - $ref: '#/components/schemas/test1'
                   x-stoplight:
                     id: ooodri8rkz7cq
@@ -188,6 +188,8 @@ components:
   schemas:
     User:
       title: User
+      x-stoplight:
+        id: 1vwb6v4d3nsgm
       type: object
       description: ''
       examples:
@@ -207,7 +209,7 @@ components:
         firstName:
           type: string
           x-stoplight:
-            id: bsbp1fr34ql2m
+            id: rib1ixjkxr0t3
         lastName:
           type: string
           x-stoplight:
@@ -240,12 +242,10 @@ components:
         - lastName
         - email
         - emailVerified
-      x-stoplight:
-        id: ooodri8rkz7cq
     test1:
       title: test1
       x-stoplight:
-        id: ooodri8rkz7cq
+        id: c1497s7jwa65a
       type: object
       description: ''
       examples:

@@ -1,33 +1,33 @@
 title: test1
 x-stoplight:
-  id: s68rebevd2rto
+  id: fd9a7x1bwfh1e
 type: object
 properties:
   id:
     type: string
     x-stoplight:
-      id: s68rebevd2rto
+      id: 78skbl9bc49pl
   colour:
     type: array
     x-stoplight:
-      id: nv0o98w7jzwq4
+      id: a3cp3t1pqx6an
     items:
       x-stoplight:
-        id: l4as08dj5q1kf
+        id: 54gzus29hh7f5
   fruit:
     type: array
     x-stoplight:
-      id: go1cyfvurukw6
+      id: tce5rhkfux69g
     items:
       x-stoplight:
-        id: 955n81ka5y8oa
+        id: j2qd77sdpm6tw
   flower:
     type: array
     x-stoplight:
-      id: websd11s5as1f
+      id: s16efkmy9i97r
     items:
       x-stoplight:
-        id: 6j5pigvgmlhqd
+        id: lihb4zdnk5j0i
 examples:
   - id: string
     colour:
