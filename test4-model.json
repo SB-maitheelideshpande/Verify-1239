@@ -1,0 +1,168 @@
+{
+    "title": "test4",
+    "x-stoplight": {
+        "id": "g1y8dyox0jhr9"
+    },
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "array",
+            "x-stoplight": {
+                "id": "s6714gzdfbfe0"
+            },
+            "items": {
+                "x-stoplight": {
+                    "id": "yubzbl0j3cwt3"
+                }
+            }
+        },
+        "check": {
+            "type": "string",
+            "x-stoplight": {
+                "id": "b1rpls4g77hfs"
+            }
+        },
+        "try": {
+            "type": "object",
+            "x-stoplight": {
+                "id": "rmu3rz3p7ppxm"
+            },
+            "properties": {
+                "fff": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "hd66a861s6i18"
+                    }
+                },
+                "fkfjkf": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "ogot6c4nk31a2"
+                    }
+                },
+                "sakcjs": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "6y45hoq2sdb30"
+                    }
+                },
+                "ssdkls": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "3bw14gezt5pi4"
+                    }
+                },
+                "klklc": {
+                    "type": "object",
+                    "x-stoplight": {
+                        "id": "kl34i92c3jypk"
+                    },
+                    "properties": {
+                        "s;csl;cd": {
+                            "type": "string",
+                            "x-stoplight": {
+                                "id": "lxseixbhosxwq"
+                            }
+                        },
+                        "tt": {
+                            "type": "string",
+                            "x-stoplight": {
+                                "id": "fkziks7016x5q"
+                            }
+                        },
+                        "ttt": {
+                            "type": "string",
+                            "x-stoplight": {
+                                "id": "tdsv85lfcz9vx"
+                            }
+                        },
+                        "y33": {
+                            "type": "integer",
+                            "x-stoplight": {
+                                "id": "1ogytyexjlmpd"
+                            }
+                        },
+                        "y345": {
+                            "type": "boolean",
+                            "x-stoplight": {
+                                "id": "9of0lk32lvm1g"
+                            }
+                        },
+                        "y3434": {
+                            "type": "array",
+                            "x-stoplight": {
+                                "id": "y77wc8jccpgi2"
+                            },
+                            "items": {
+                                "x-stoplight": {
+                                    "id": "tfuxmamux6auz"
+                                }
+                            }
+                        },
+                        "y111": {
+                            "type": "boolean",
+                            "x-stoplight": {
+                                "id": "b7e2xvdmic67j"
+                            }
+                        },
+                        "y22": {
+                            "x-stoplight": {
+                                "id": "p8dbvdgkqe19w"
+                            },
+                            "enum": []
+                        },
+                        "y2": {
+                            "type": "string",
+                            "x-stoplight": {
+                                "id": "ol4mrpntdse87"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "verify": {
+            "type": "object",
+            "x-stoplight": {
+                "id": "na2uv06iygz3t"
+            },
+            "properties": {
+                "r": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "0tz6zx85t21he"
+                    }
+                },
+                "t": {
+                    "type": "string",
+                    "x-stoplight": {
+                        "id": "kfz7qicj71iih"
+                    }
+                },
+                "yu": {
+                    "type": "boolean",
+                    "x-stoplight": {
+                        "id": "x1826avbn6mje"
+                    }
+                },
+                "i": {
+                    "type": "object",
+                    "x-stoplight": {
+                        "id": "lhv7tmutk7gcc"
+                    }
+                },
+                "o": {
+                    "type": "array",
+                    "x-stoplight": {
+                        "id": "p9vfvqf0bgjxj"
+                    },
+                    "items": {
+                        "x-stoplight": {
+                            "id": "gdohjz8rtqzjp"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
