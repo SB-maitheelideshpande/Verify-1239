@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "title": "M1",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
