@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-stoplight": {
-    "id": "fs5vrym75o6jx"
+    "id": "mxw4li4ztq8uu"
   },
   "info": {
     "title": "api3-3.1",
@@ -28,7 +28,7 @@
       "get": {
         "summary": "Get User Info by User ID",
         "x-stoplight": {
-          "id": "yemh33a4w5y44"
+          "id": "8y6ut8h338qkn"
         },
         "tags": [],
         "responses": {
@@ -65,7 +65,7 @@
       "patch": {
         "summary": "Update User Information",
         "x-stoplight": {
-          "id": "ynfcqq0vv3cv9"
+          "id": "hopxgywjoygpn"
         },
         "operationId": "patch-users-userId",
         "responses": {
@@ -223,21 +223,21 @@
         },
         "description": "Create a new user.",
         "x-stoplight": {
-          "id": "u1u9kmn9b1mfp"
+          "id": "iuvfnliiu7if6"
         }
       },
       "put": {
         "summary": "Your PUT endpoint",
+        "x-stoplight": {
+          "id": "xcregyvwr4xi1"
+        },
         "tags": [],
         "responses": {
           "200": {
             "description": "OK"
           }
         },
-        "operationId": "put-user",
-        "x-stoplight": {
-          "id": "uedd54p2cv9cl"
-        }
+        "operationId": "put-user"
       },
       "patch": {
         "summary": "Your PATCH endpoint",
@@ -245,13 +245,13 @@
         "responses": {},
         "operationId": "patch-user",
         "x-stoplight": {
-          "id": "p1hyxiyprz5dt"
+          "id": "cpuh0ge2nub2o"
         }
       },
       "head": {
         "summary": "Your HEAD endpoint",
         "x-stoplight": {
-          "id": "y8uq2vv7tgmxa"
+          "id": "ew7qt2e1xuhzx"
         },
         "tags": [],
         "responses": {
@@ -270,7 +270,7 @@
                     {
                       "$ref": "#/components/schemas/User",
                       "x-stoplight": {
-                        "id": "4wb1sb29jd28c"
+                        "id": "3cs4mzqzv0wkj"
                       }
                     }
                   ]
@@ -314,20 +314,20 @@
           "firstName": {
             "type": "string",
             "x-stoplight": {
-              "id": "yto5524rdbtvq"
+              "id": "5d1b218kuw5pn"
             }
           },
           "lastName": {
             "type": "string",
             "x-stoplight": {
-              "id": "isa4c4sqqt6e6"
+              "id": "yto5524rdbtvq"
             }
           },
           "email": {
             "type": "string",
             "format": "email",
             "x-stoplight": {
-              "id": "gmrm79smllcm5"
+              "id": "2383ea902s1mr"
             }
           },
           "dateOfBirth": {
@@ -335,14 +335,14 @@
             "format": "date",
             "example": "1997-10-31",
             "x-stoplight": {
-              "id": "i0gdb8cfkac1y"
+              "id": "gmrm79smllcm5"
             }
           },
           "emailVerified": {
             "type": "boolean",
             "description": "Set to true if the user's email has been verified.",
             "x-stoplight": {
-              "id": "t0mxn7jbxf5la"
+              "id": "ddj5u2ehqhz8a"
             }
           },
           "createDate": {
@@ -350,7 +350,7 @@
             "format": "date",
             "description": "The date that the user was created.",
             "x-stoplight": {
-              "id": "04we3sd8hiwr3"
+              "id": "t0mxn7jbxf5la"
             }
           }
         },
@@ -372,13 +372,13 @@
           "id": {
             "type": "string",
             "x-stoplight": {
-              "id": "1lkmohm7bqpx0"
+              "id": "jbh8saf8uj5l2"
             }
           },
           "email": {
             "type": "boolean",
             "x-stoplight": {
-              "id": "440jvi8i63w92"
+              "id": "sjqq3d16n6m5s"
             }
           },
           "address": {

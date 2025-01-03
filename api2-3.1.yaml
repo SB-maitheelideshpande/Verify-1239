@@ -1,6 +1,6 @@
 openapi: 3.1.0
 x-stoplight:
-  id: mxw4li4ztq8uu
+  id: bt6nl4h04iyni
 info:
   title: api2-3.1
   version: '1.0'
@@ -40,11 +40,11 @@ paths:
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
-        id: z1upli58s791x
+        id: srds6432sn4bt
     patch:
       summary: Update User Information
       x-stoplight:
-        id: 9wd3rc9sghifa
+        id: 25e6f7dfwinuw
       operationId: patch-users-userId
       responses:
         '200':
@@ -150,11 +150,11 @@ paths:
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
       x-stoplight:
-        id: hba5hh1dtrll8
+        id: c9v8ihmn1yuds
     get:
       summary: Your GET endpoint
       x-stoplight:
-        id: 16ypxdcw3oicw
+        id: 1c03by166sze4
       tags: []
       responses:
         '200':
@@ -171,7 +171,7 @@ paths:
                   hhhhh:
                     type: string
                     x-stoplight:
-                      id: 36ie0gpksymys
+                      id: 2t5tne1ifczqz
       operationId: get-user
       requestBody:
         content:
@@ -189,7 +189,7 @@ components:
     User:
       title: User
       x-stoplight:
-        id: 1vwb6v4d3nsgm
+        id: tz6mu68jw3sig
       type: object
       description: ''
       examples:
@@ -205,7 +205,7 @@ components:
           type: integer
           description: Unique identifier for the given user.
           x-stoplight:
-            id: by8mn83ptb5p5
+            id: u7ri53fw2u9at
         firstName:
           type: string
           x-stoplight:
@@ -224,12 +224,12 @@ components:
           format: date
           example: '1997-10-31'
           x-stoplight:
-            id: 7sg3ghvrve231
+            id: 4wb1sb29jd28c
         emailVerified:
           type: boolean
           description: Set to true if the user's email has been verified.
           x-stoplight:
-            id: 889k1xqrjde9v
+            id: 1lkmohm7bqpx0
         createDate:
           type: string
           format: date
@@ -245,7 +245,7 @@ components:
     test1:
       title: test1
       x-stoplight:
-        id: c1497s7jwa65a
+        id: guqn3bmm7p82a
       type: object
       description: ''
       examples:
